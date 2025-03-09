@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrderPlanner")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b71fb00bd1269b9ac19ea01001936351c130bc48")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9d6d8601b0263f50ebdc35dd10026b8c6fa44c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrderPlanner")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrderPlanner")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
