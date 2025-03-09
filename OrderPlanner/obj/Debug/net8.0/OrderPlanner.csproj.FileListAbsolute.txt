@@ -155,3 +155,4 @@ C:\Users\arcka\source\repos\OrderPlanner\OrderPlanner\bin\Debug\net8.0\publish\p
 C:\Users\arcka\source\repos\OrderPlanner\OrderPlanner\bin\Debug\net8.0\publish\publish\publish\publish\appsettings.production.json
 C:\Users\arcka\source\repos\OrderPlanner\OrderPlanner\bin\Debug\net8.0\publish\publish\publish\publish\OrderPlanner.deps.json
 C:\Users\arcka\source\repos\OrderPlanner\OrderPlanner\bin\Debug\net8.0\publish\publish\publish\publish\OrderPlanner.runtimeconfig.json
+C:\Users\arcka\source\repos\OrderPlanner\OrderPlanner\obj\Debug\net8.0\OrderPlanner.sourcelink.json
