@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Create Order";
+}
+@model OrderPlanner.Models.Order
+
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        <div class="card">
+            <div class="card-header">
+                <h1 class="display-4">Информация о заказе</h1>
+            </div>
+            <div class="card-body">
+                <form asp-action="CreateOrder">
+                    <fieldset disabled readonly>
+                        <div class="mb-3">
+                            <label class="form-label">Уникальный номер</label>
+                            <input class="form-control" type="text" value="@Model.Id" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Город отправителя</label>
+                            <input class="form-control" type="text" value="@Model.SenderCity" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Адрес отправителя</label>
+                            <input class="form-control" type="text" value="@Model.SenderAdress" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Город получателя</label>
+                            <input class="form-control" type="text" value="@Model.RecieverCity" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Адрес получателя</label>
+                            <input class="form-control" type="text" value="@Model.RecieverAdress" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Вес груза, кг</label>
+                            <input class="form-control" type="text" value="@Model.Weight" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="mt-2">Дата забора груза</label>
+                            <input class="form-control" type="text" value="@Model.PickupDate" />
+                            <div style="height:20px"></span></div>
+                        </div>
+                    </fieldset>
+                    <div class="mt-4 d-flex justify-content-between">
+                        <div></div>
+                        <a class="btn btn-outline-secondary" asp-controller="Order" asp-action="Index">Назад</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

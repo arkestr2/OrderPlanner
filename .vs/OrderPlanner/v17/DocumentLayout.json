@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\arcka\\source\\repos\\OrderPlanner\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2B329A-E83C-484C-9262-1C43AF2B970B}|OrderPlanner\\OrderPlanner.csproj|c:\\users\\arcka\\source\\repos\\orderplanner\\orderplanner\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5A2B329A-E83C-484C-9262-1C43AF2B970B}|OrderPlanner\\OrderPlanner.csproj|solutionrelative:orderplanner\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2B329A-E83C-484C-9262-1C43AF2B970B}|OrderPlanner\\OrderPlanner.csproj|c:\\users\\arcka\\source\\repos\\orderplanner\\orderplanner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2B329A-E83C-484C-9262-1C43AF2B970B}|OrderPlanner\\OrderPlanner.csproj|solutionrelative:orderplanner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2B329A-E83C-484C-9262-1C43AF2B970B}|OrderPlanner\\OrderPlanner.csproj|c:\\users\\arcka\\source\\repos\\orderplanner\\orderplanner\\orderplanner.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5A2B329A-E83C-484C-9262-1C43AF2B970B}|OrderPlanner\\OrderPlanner.csproj|solutionrelative:orderplanner\\orderplanner.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2B329A-E83C-484C-9262-1C43AF2B970B}|OrderPlanner\\OrderPlanner.csproj|c:\\users\\arcka\\source\\repos\\orderplanner\\orderplanner\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5A2B329A-E83C-484C-9262-1C43AF2B970B}|OrderPlanner\\OrderPlanner.csproj|solutionrelative:orderplanner\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2B329A-E83C-484C-9262-1C43AF2B970B}|OrderPlanner\\OrderPlanner.csproj|c:\\users\\arcka\\source\\repos\\orderplanner\\orderplanner\\dbcontexts\\ordercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2B329A-E83C-484C-9262-1C43AF2B970B}|OrderPlanner\\OrderPlanner.csproj|solutionrelative:orderplanner\\dbcontexts\\ordercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2B329A-E83C-484C-9262-1C43AF2B970B}|OrderPlanner\\OrderPlanner.csproj|c:\\users\\arcka\\source\\repos\\orderplanner\\orderplanner\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2B329A-E83C-484C-9262-1C43AF2B970B}|OrderPlanner\\OrderPlanner.csproj|solutionrelative:orderplanner\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\arcka\\source\\repos\\OrderPlanner\\OrderPlanner\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "OrderPlanner\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\arcka\\source\\repos\\OrderPlanner\\OrderPlanner\\Models\\Order.cs",
+              "RelativeToolTip": "OrderPlanner\\Models\\Order.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowBAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T15:45:08.616Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:350743133:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1449176975:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\arcka\\source\\repos\\OrderPlanner\\OrderPlanner\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "OrderPlanner\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\arcka\\source\\repos\\OrderPlanner\\OrderPlanner\\Properties\\launchSettings.json",
+              "RelativeToolTip": "OrderPlanner\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-08T15:53:30.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\arcka\\source\\repos\\OrderPlanner\\OrderPlanner\\appsettings.json",
+              "RelativeDocumentMoniker": "OrderPlanner\\appsettings.json",
+              "ToolTip": "C:\\Users\\arcka\\source\\repos\\OrderPlanner\\OrderPlanner\\appsettings.json",
+              "RelativeToolTip": "OrderPlanner\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-08T15:53:26.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderPlanner.csproj",
+              "DocumentMoniker": "C:\\Users\\arcka\\source\\repos\\OrderPlanner\\OrderPlanner\\OrderPlanner.csproj",
+              "RelativeDocumentMoniker": "OrderPlanner\\OrderPlanner.csproj",
+              "ToolTip": "C:\\Users\\arcka\\source\\repos\\OrderPlanner\\OrderPlanner\\OrderPlanner.csproj",
+              "RelativeToolTip": "OrderPlanner\\OrderPlanner.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-08T15:30:30.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderContext.cs",
+              "DocumentMoniker": "C:\\Users\\arcka\\source\\repos\\OrderPlanner\\OrderPlanner\\DbContexts\\OrderContext.cs",
+              "RelativeDocumentMoniker": "OrderPlanner\\DbContexts\\OrderContext.cs",
+              "ToolTip": "C:\\Users\\arcka\\source\\repos\\OrderPlanner\\OrderPlanner\\DbContexts\\OrderContext.cs",
+              "RelativeToolTip": "OrderPlanner\\DbContexts\\OrderContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T15:30:21.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\arcka\\source\\repos\\OrderPlanner\\OrderPlanner\\Program.cs",
+              "RelativeDocumentMoniker": "OrderPlanner\\Program.cs",
+              "ToolTip": "C:\\Users\\arcka\\source\\repos\\OrderPlanner\\OrderPlanner\\Program.cs",
+              "RelativeToolTip": "OrderPlanner\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T15:30:14.457Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

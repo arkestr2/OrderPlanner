@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Create Order";
+}
+@model OrderPlanner.Models.Order
+
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        <div class="card">
+            <div class="card-header">
+                <h1 class="display-4">Новый заказ</h1>
+            </div>
+            <div class="card-body">
+                <form asp-action="CreateOrder" method="post">
+                    <fieldset>
+                        <div class="mb-3">
+                            <label class="form-label">Город отправителя</label>
+                            <input asp-for="SenderCity" class="form-control" type="text" placeholder="Санкт-Петербург" />
+                            <span asp-validation-for="SenderCity" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Адрес отправителя</label>
+                            <input asp-for="SenderAdress" class="form-control" type="text" placeholder="Казанская площадь, 2" />
+                            <span asp-validation-for="SenderAdress" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Город получателя</label>
+                            <input asp-for="RecieverCity" class="form-control" type="text" placeholder="Калининград" />
+                            <span asp-validation-for="RecieverCity" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Адрес получателя</label>
+                            <input asp-for ="RecieverAdress" class="form-control" type="text" placeholder="Красная улица, 11" />
+                            <span asp-validation-for="RecieverAdress" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Вес груза, кг</label>
+                            <input asp-for="Weight" class="form-control" type="number" placeholder="2" step="0.1" />
+                            <span asp-validation-for="Weight" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="mt-2">Дата забора груза</label>
+                            <input class="form-control" type="date" placeholder="0" asp-for="PickupDate" />
+                            <div style="height:20px"><span asp-validation-for="PickupDate" class="text-danger"></span></div>
+                        </div>
+
+                        <div class="mt-4 d-flex justify-content-between">
+                            <button class="btn btn-primary" type="submit">Подтвердить заказ</button>
+                            <a class="btn btn-outline-secondary" asp-controller="Order" asp-action="Index">Отмена</a>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial"/>
+}
