@@ -2,7 +2,7 @@
     ViewData["Title"] = "Orders List";
 }
 
-@model IEnumerable<Order>
+@model List<Order>
 
 <div class="text-center">
     <h1 class="display-4">Список заказов</h1>
@@ -37,26 +37,26 @@
                         <th>
                             Дата забора груза
                         </th>
-                        @*<th>
+                        <th>
                             Действия
-                        </th>*@
+                        </th>
                     </tr>
                 </thead>
                 <tbody>
                     @{
-                        foreach (var order in Model)
+                        for (int i = Model.Count - 1; i >= 0; i--)
                         {
-                            <tr style="cursor:pointer" onclick="location.href='@Url.Action("ReadOrder", "Order", new { id = order.Id })'">
-                                    <td>@order.Id</td>
-                                    <td>@order.SenderCity</td>
-                                    <td>@order.SenderAdress</td>
-                                    <td>@order.RecieverCity</td>
-                                    <td>@order.RecieverAdress</td>
-                                    <td>@order.Weight</td>
-                                    <td>@order.PickupDate</td>
-                                    @*<td>
-                                        <a asp-action="DeleteOrder" asp-route-id="@order.Id">Удалить</a>
-                                    </td>*@
+                            <tr style="cursor:pointer" onclick="location.href='@Url.Action("ReadOrder", "Order", new { id = Model[i].Id })'">
+                                <td>@Model[i].Id</td>
+                                <td>@Model[i].SenderCity</td>
+                                <td>@Model[i].SenderAdress</td>
+                                <td>@Model[i].RecieverCity</td>
+                                <td>@Model[i].RecieverAdress</td>
+                                <td>@Model[i].Weight</td>
+                                <td>@Model[i].PickupDate</td>
+                                <td>
+                                <a asp-action="DeleteOrder" asp-route-id="@Model[i].Id">Удалить</a>
+                                </td>
                             </tr>
                         }
                     }

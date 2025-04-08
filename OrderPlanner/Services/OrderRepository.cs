@@ -22,7 +22,7 @@ namespace OrderPlanner.Services
 
         public async Task<IEnumerable<Order>> GetOrdersAsync()
         {
-            return await _context.Orders.OrderBy(o => o.PickupDate).ToListAsync();
+            return await _context.Orders.ToListAsync();
         }
 
         public void AddOrder(Order order)
